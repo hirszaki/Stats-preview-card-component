@@ -23,7 +23,9 @@ picture {
 	background-repeat: no-repeat;
 	border-top-left-radius: 0.5rem;
 	border-top-right-radius: 0.5rem;
-	box-shadow: inset 0 0 0 50vw rgba(187, 78, 255, 0.474);
+	background-color: hsl(281, 100%, 50%);
+	background-blend-mode: multiply;
+	opacity: 0.8;
 }
 
 .section {
@@ -51,7 +53,7 @@ h2 {
 }
 
 span {
-	color: hsl(277, 64%, 61%);
+	color: hsl(281, 100%, 50%);
 }
 
 p {
